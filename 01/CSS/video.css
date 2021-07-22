@@ -1,0 +1,26 @@
+body {
+    margin: 0%;
+    padding: 1em;
+}
+
+button {
+    margin-top: 1%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.first {
+    display: none;
+}
+
+
+#dpr {
+    margin-top: 20%;
+}
+
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비디오 재생</title>
+    <link href="CSS/video.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <video id="myVideo" width="322" height="176" autoplay controls>
+        <source src="http://www.atlasnetworks.co.kr/atlas.mp4" type="video/mp4" />
+    </video>
+
+    <button id="btnBtn" onclick="playToggle()" type="button">
+    </button>
+
+    <button id="timeTime" onclick="current()" type="button">
+    </button>
+
+    <input id='bookMark' type='number' min='1' max='91'>
+    <button id="buttonButton" onclick='submit()'>
+        제출
+    </button>
+
+    <video id="dpr" width="322" height="176" autoplay controls>
+        <source src="IMG/dprLiveYellowCab.mp4" type="video/mp4" />
+    </video>
+    
+    <button id="dprBtn" onclick="playStop()" type="button">
+    </button>
+
+    <button id="dbrTime" onclick="currentTime()" type="button">
+    </button>
+
+    <button id="dprMute" onclick="muteToggle()" type="button">
+    </button>
+
+    <button id="fullScreen" onclick="fullScreen()" type="button">
+    </button>
+
+    <script src="JS/video.js"></script> 
+</body>
+</html>

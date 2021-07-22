@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>비디오 재생</title>
+    <link href="CSS/video.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="wrap">
+
+        <video id="video" width="322" height="176" autoplay controls>
+            <source src="IMG/dprLiveYellowCab.mp4" type="video/mp4" />
+        </video>
+
+        <div id="control-bar">
+            <button id="play-toggle-btn" onclick="playStop()">
+            </button>
+
+            <span id="display-time">
+            </span>
+
+            <span id="duration">
+            </span>
+
+            <button id="mute-toggle-btn" onclick="muteToggle()">
+            </button>
+
+            <button id="fullscreen-btn" onclick="fullScreen()">
+            </button>
+        </div>
+    </div>
+
+    <script src="JS/video.js"></script>
+</body>
+
+</html>
